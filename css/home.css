@@ -1,0 +1,31 @@
+div#talk {
+    max-width: 840px;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    height: 600px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-shadow: 0px 0px 5px #0000002e;
+    margin: auto;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.question {
+    margin: 10px 5px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #0000002c;
+    float: left;
+    clear: right;
+}
+
+.resp {
+    margin: 10px 5px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #0000002c;
+    float: right;
+    clear: left;
+}
