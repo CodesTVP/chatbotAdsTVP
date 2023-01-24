@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suas estatísticas</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/statistics.css">
+    <link rel="shortcut icon" href="assets/ADsTVPovao.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="./assets/ADsTVPovao.png" alt="Logo Anúncios TV Povão" width="35px">
+            <h1>Suas estatísticas</h1>
+        </div>
+        <div>
+            <div>
+                <div>
+                    <img src="./assets/user.png" user-img width="30px">
+                    <h3 user-name>User</h3>
+                </div>
+                <p user-email>exmail@gmail.com</p>
+            </div>
+            <div>
+                <button data-login>Entrar</button>
+                <button disabled data-logout>Sair</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h2 style="text-align: center;">Você não possui nenhum anúncio 😥</h2>
+        <a style="margin-top: 10px; color: black; text-align: center;"
+            href="https://codestvp.github.io/chatbotAdsTVP/home.html" target="_blank">
+            Coloque seu anúncio na TV Povão 🤖</a>
+        <ul></ul>
+    </main>
+    <footer>
+        © Copyright - Developed by <a href="https://github.com/Vanortton">Vanortton</a>
+    </footer>
+    <script src='https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js'></script>
+    <script src='https://www.gstatic.com/firebasejs/8.2.7/firebase-firestore.js'></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+    <script src="js/statistics.js"></script>
+</body>
+
+</html>

@@ -29,3 +29,10 @@ div#talk {
     float: right;
     clear: left;
 }
+
+#content>a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
